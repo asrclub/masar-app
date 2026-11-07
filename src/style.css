@@ -12,3 +12,9 @@
 .checksum summary{cursor:pointer;color:#66ecec}
 .checksum code{display:block;margin-top:9px;overflow-wrap:anywhere;user-select:all;line-height:1.5;font-size:12px;color:#d8eeff}
 @media(max-width:650px){header{height:auto;min-height:72px;flex-wrap:wrap;justify-content:center}nav{flex-wrap:wrap;justify-content:center;gap:9px 14px}.download-buttons a{width:100%}.install-notice{padding:18px}}
+
+/* Wealth & Technology World brand footer */
+.brand-footer{display:flex;flex-direction:column;align-items:center;gap:8px;padding:36px 20px 46px;text-align:center;background:#081a2c}
+.brand-footer-logo{display:block;width:min(220px,62vw);height:auto;aspect-ratio:1;object-fit:contain;border-radius:16px;background:#f6f6f6;border:1px solid #ffffff30;box-shadow:0 10px 35px #00000030;margin-bottom:8px}
+.brand-footer-rights{margin:0;font-size:16px;line-height:1.75;font-weight:600;color:#eef7ff}
+.brand-footer-author{margin:0;font-size:15px;color:#8de6e5;font-weight:500}
