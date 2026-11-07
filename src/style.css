@@ -14,7 +14,9 @@
 @media(max-width:650px){header{height:auto;min-height:72px;flex-wrap:wrap;justify-content:center}nav{flex-wrap:wrap;justify-content:center;gap:9px 14px}.download-buttons a{width:100%}.install-notice{padding:18px}}
 
 /* Wealth & Technology World brand footer */
-.brand-footer{display:flex;flex-direction:column;align-items:center;gap:8px;padding:36px 20px 46px;text-align:center;background:#081a2c}
-.brand-footer-logo{display:block;width:min(220px,62vw);height:auto;aspect-ratio:1;object-fit:contain;border-radius:16px;background:#f6f6f6;border:1px solid #ffffff30;box-shadow:0 10px 35px #00000030;margin-bottom:8px}
+.brand-footer{display:flex;flex-direction:column;align-items:center;gap:6px;padding:26px 20px 30px;text-align:center;background:#081a2c}
+.brand-footer-logo{display:block;width:min(130px,42vw);height:auto;aspect-ratio:1;object-fit:contain;border-radius:12px;background:#f6f6f6;border:1px solid #ffffff30;box-shadow:0 7px 22px #00000024;margin-bottom:4px}
 .brand-footer-rights{margin:0;font-size:16px;line-height:1.75;font-weight:600;color:#eef7ff}
 .brand-footer-author{margin:0;font-size:15px;color:#8de6e5;font-weight:500}
+
+@media(max-width:650px){.brand-footer-logo{width:min(110px,36vw)}.brand-footer{padding:24px 16px 28px}}
